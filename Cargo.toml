@@ -26,12 +26,14 @@ use-bindgen = ["libheif-sys/use-bindgen"]
 
 [dependencies.libheif-sys]
 version = "2.1"
+# path = "../libheif-sys"
 default-features = false
 
 
 [dev-dependencies]
 kamadak-exif = "0.5"
 tempfile = "3"
+image = "0.25.2"
 
 
 [profile.release]
